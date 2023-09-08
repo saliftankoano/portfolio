@@ -1,0 +1,62 @@
+#contact-section{
+    margin: 0 auto;
+    min-height: calc(100vh-4rem);
+    width: 100vh;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+.contact-desc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+.contact-form{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+ .name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 1rem ;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+ }
+
+ .send-btn{
+    background-color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem 3.5rem ;
+    margin: 2rem;
+ }
+ .send-btn:hover{
+    background-color: #1cd760;
+    color: white;
+ }
+
+ .links{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .link-img{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 .75rem;
+ }
