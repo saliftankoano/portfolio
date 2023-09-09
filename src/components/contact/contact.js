@@ -16,8 +16,8 @@ const contact= ()=>{
                     </textarea>
                     <button type="submit" value="send" className="send-btn">Send</button>
                     <div className="links">
-                        <img src={LinkedIn} alt="Linkedin logo" className="link-img" />
-                        <img src={Github} alt="Github logo" className="link-img" />
+                        <a href="https://www.linkedin.com/in/salif-tankoano/"><img src={LinkedIn} alt="Linkedin logo" className="link-img" /></a>
+                        <a href="https://github.com/saliftankoano"><img src={Github} alt="Github logo" className="link-img" /></a>
                     </div>
                 </form>
             </div>
