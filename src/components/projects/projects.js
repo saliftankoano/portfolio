@@ -11,7 +11,7 @@ const projects= ()=>{
     return (
         <section id="projects">
             <h2 className="projects-title">My Projects</h2>
-            <span className="projects-desc">I strive to build original projects with a plethora of purposes.<br/> Some of these projects are used on a daily basis by friends and family members.<br/> Giving me feedback and allowing me to improve them.</span>
+            <span className="projects-desc">I strive to build original projects with a plethora of purposes.<br/>These projects are used by friends, family and more.<br/> Thank you all, for your helping me improve my creations!</span>
             <div className="projects-imgs">
                 <img src={Portfolio1} className="projects-img" alt=""/>
                 <img src={Portfolio2} className="projects-img" alt=""/>

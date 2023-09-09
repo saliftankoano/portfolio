@@ -5,10 +5,10 @@ import Github from "../../assets/github.svg";
 
 const contact= ()=>{
     return (
-        <section id="contact-section">
+        <section id="contact">
             <div className="">
                 <h1 className="contact-title">Contact Me</h1>
-                <span className="contact-desc">Please fill out the form below and will get back to you shortly.</span>
+                <span className="contact-desc">Please fill out the form below, and I will get back to you shortly.</span>
                 <form className="contact-form"> 
                     <input type="text" className="name"placeholder="Your Name"/>
                     <input type="email" className="email" placeholder="Your Email"/>

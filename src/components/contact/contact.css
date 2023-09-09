@@ -1,4 +1,4 @@
-#contact-section{
+#contact{
     margin: 0 auto;
     min-height: calc(100vh-4rem);
     width: 100vh;
@@ -13,6 +13,7 @@
 .contact-title{
     margin: 1rem 0;
     font-size: 3rem;
+    color: #1cd760;
 }
 .contact-desc{
     padding: 1rem;

@@ -1,8 +1,7 @@
 import React from "react";
 import "./skills.css";
 import reactLogo from '../../assets/react.svg';
-import WEBDESIGN from"../../assets/website-design.png";
-import APPDESIGN from"../../assets/app-design.png";
+//import WEBDESIGN from"../../assets/website-design.png";
 
 import Html from"../../assets/html-5.png";
 import Css from "../../assets/css-3.png";
@@ -26,20 +25,13 @@ const skills= ()=>{
                     <img className="skill-img" src={Node} alt="node logo"/>
                     <img className="App-logo" src={reactLogo}  alt="react logo" />
                 </div>
-                <div className="skill-bar">
+                {/* <div className="skill-bar">
                     <img src={WEBDESIGN} alt="Web design" className="skill-img"/>
                     <div className="skill-bar-txt">
                         <h2>Web Design</h2>
                         <p>Write some description of what Web design entails...</p>
                     </div>
-                </div>
-                <div className="skill-bar">
-                    <img src={APPDESIGN} alt="App design" className="skill-img"/>
-                    <div className="skill-bar-txt">
-                        <h2>App Design</h2>
-                        <p>Write some description of what App design entails...</p>
-                    </div>
-                </div>
+                </div> */}
 
             </div>
         </section>
