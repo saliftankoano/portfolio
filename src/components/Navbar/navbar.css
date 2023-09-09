@@ -50,3 +50,43 @@
     width: 1rem;
     margin: 1rem 0.5rem;
 }
+.active{
+    color: #1cd760;
+}
+.mobile-nav{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+
+.mobile-item{
+    color: white;
+    padding: .5rem 3rem;
+    margin: 0.25rem;
+}
+
+.mobile-menu{
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+
+@media screen and (max-width: 720px){
+    .mobile-menu{
+        display: flex;
+    }
+    .desk-menu{
+        display: none;
+    }
+    .desk-menu-btn{
+        display: none;
+    }
+}
