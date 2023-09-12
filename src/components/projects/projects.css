@@ -29,13 +29,20 @@
     align-items:center;
     justify-content: center;
     width: 100vw;
-    max-width: 65rem;
+    max-width: 50rem;
 }
 
 .projects-img{
     object-fit: cover;
     height: 20rem;
     margin: 0.5rem;
+    transition: all 0.3s;
+}
+.projects-img:hover{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    transform: scale(1.1);
 }
 .projects-btn{
     padding: 0.5rem 2rem;

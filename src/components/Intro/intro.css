@@ -49,6 +49,7 @@
 }
 .hello,.intro-para{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 .btn{
     font-family: 'Montserat',sans-serif;
