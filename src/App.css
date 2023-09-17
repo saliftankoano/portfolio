@@ -1,0 +1,12 @@
+@font-face {
+    font-family: norwester;
+    src: url(./assets/norwester.otf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(./assets/Poppins-Black.ttf);
+}
+*{
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+}
