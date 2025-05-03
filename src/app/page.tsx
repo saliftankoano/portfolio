@@ -97,6 +97,29 @@ export default function Page() {
           ))}
         </div>
       </section>
+      <section id="certificates">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+            <h2 className="text-xl font-bold">Certificates</h2>
+          </BlurFade>
+          {DATA.certificates.map((certificate, id) => (
+            <BlurFade
+              key={certificate.institution}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+            >
+              <ResumeCard
+                key={certificate.institution}
+                href={certificate.href}
+                logoUrl={certificate.logoUrl}
+                altText={certificate.institution}
+                title={certificate.credentialName}
+                subtitle={certificate.institution}
+                period={`${certificate.start} - ${certificate.end}`}
+              />
+            </BlurFade>
+          ))}
+        </div>
+      </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -165,9 +188,9 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I participated in {DATA.hackathons.length} hackathons, and won
-                  $8k+ and prizes. Having the opportunity to work under pressure
-                  and build something in 24-72 hours was challenging and
-                  rewarding.
+                  $8k+ in cash and prizes. Having the opportunity to work under pressure
+                  and build something in 24-72 hours is both challenging and
+                  rewarding. I've learned a lot from each hackathon and I'm looking forward to the next one.
                 </p>
               </div>
             </div>

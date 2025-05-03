@@ -19,8 +19,9 @@ export const DATA = {
     "Node.js",
     "Python",
     "MySQL",
-    "Docker",
     "Java",
+    "SEO",
+    "SEM"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -122,10 +123,12 @@ export const DATA = {
       start: "Sep 2020",
       end: "May 2024",
     },
+  ],
+  certificates: [
     {
-      school: "COOP Careers",
+      institution: "COOP Careers",
       href: "https://coopcareers.com",
-      degree: "Digital Marketing Certificate",
+      credentialName: "Digital Marketing Certificate",
       logoUrl:
         "https://images.squarespace-cdn.com/content/v1/52bcea0ee4b0eedea1b68c76/1592270921910-1GI7A8BVB92HB8J49LNT/cooplogo+%281%29.png?format=1500w",
       start: "Aug 2024",
@@ -265,7 +268,13 @@ export const DATA = {
         "We built ActionCal an AI powered calendar that helps you get more done. Think of Google calendar meets AI.",
       image: "/genui.avif",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/KaBankz/actioncal",
+        },
+      ],
     },
     {
       title: "ConTech Hackathon 🏆",
@@ -276,7 +285,18 @@ export const DATA = {
       image:
         "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/c7/9e4f3b78-2874-4c03-af2d-d364a0798306",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        {
+          title: "Devpost",
+          icon: <Icons.devpost className="h-4 w-4" />,
+          href: "http://devpost.com/software/hive-vh2uca",
+        },
+        {
+          title: "Live",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://hivereports.com/",
+        },
+      ],
     },
     {
       title: "Renewable Energy Hackathon 🏆",
@@ -293,6 +313,11 @@ export const DATA = {
           icon: <Icons.devpost className="h-4 w-4" />,
           href: "https://devpost.com/software/esg-for-good",
         },
+        {
+          title: "Live",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://esgforgood.com/",
+        },
       ],
     },
     {
@@ -303,13 +328,7 @@ export const DATA = {
         "Developed a voice agent connected to a web application to help restaurants repond to calls and place orders.",
       image:
         "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/7m/4c883137-6b3f-4aac-a0b0-180f7c7847f5",
-      links: [
-        {
-          title: "Repository",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ethdocnet", // TODO: add link
-        },
-      ],
+      links: [],
     },
     {
       title: "THE AI SUMMIT HACKATHON 🏆",
@@ -339,7 +358,7 @@ export const DATA = {
         {
           title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          href: "https://github.com/KaBankz/clever-coffee-hackathon",
         },
       ],
     },
