@@ -115,6 +115,7 @@ export default function Page() {
                 title={certificate.credentialName}
                 subtitle={certificate.institution}
                 period={`${certificate.start} - ${certificate.end}`}
+                description={certificate.description}
               />
             </BlurFade>
           ))}
@@ -143,12 +144,10 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  Building things that matter
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  Each project solves real problems and delivers measurable impact. From construction teams to bloggers, I build software that people actually use.
                 </p>
               </div>
             </div>
@@ -184,13 +183,12 @@ export default function Page() {
                   Hackathons
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  Thriving under pressure
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I participated in {DATA.hackathons.length} hackathons, and won
-                  $8k+ in cash and prizes. Having the opportunity to work under pressure
-                  and build something in 24-72 hours is both challenging and
-                  rewarding. I've learned a lot from each hackathon and I'm looking forward to the next one.
+                  $8k+ in cash and prizes. Building something in 24-72 hours is both challenging and
+                  rewarding. It pushed me to think outside of the box, care about the details others won't, and ship fast.
                 </p>
               </div>
             </div>
@@ -227,14 +225,14 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Want to chat? Just shoot me a message{" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
                 >
                   on LinkedIn
-                </Link>{" "}
-                and I&apos;ll respond ASAP. I will ignore all soliciting.
+                </Link>{" "}<br/>
+                I will ignore all soliciting.
               </p>
             </div>
           </BlurFade>
