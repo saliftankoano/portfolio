@@ -188,7 +188,7 @@ export default function Page() {
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I participated in {DATA.hackathons.length} hackathons, and won
                   $8k+ in cash and prizes. Building something in 24-72 hours is both challenging and
-                  rewarding. It pushed me to think outside of the box, care about the details others won't, and ship fast.
+                  rewarding. It pushed me to think outside of the box, care about the details others won&apos;t, and ship fast.
                 </p>
               </div>
             </div>
