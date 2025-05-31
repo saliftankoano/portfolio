@@ -14,7 +14,7 @@ import Markdown from "react-markdown";
 const BLUR_FADE_DELAY = 0.04;
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: `${DATA.name} - Software Engineer & AI Enthusiast`,
   description: `${DATA.name} - ${DATA.description}`,
   openGraph: {
     title: `${DATA.name} - Software Engineer Portfolio`,
