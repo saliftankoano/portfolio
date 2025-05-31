@@ -8,9 +8,8 @@ export const DATA = {
   location: "New York, NY",
   locationLink: "https://www.google.com/maps/place/New+York",
   description:
-    "Software Engineer and AI enthusiast. I love building apps and tools that make people's lives easier.",
-  summary:
-    "At 16 I took summer course on web development and fell in love with it. It lead me to complete my first websites for local businesses. I had the opportunity to go the United States later that year, I have now completed my Bachelors degree in Computer Science and I'm looking for a new challenge to grow my skills and contribute to a team.",
+    "Solving problems with simplicity is art. I'm a software engineer and AI enthusiast. I love building apps and tools that become an integral part of people's lives.",
+  summary: "Software hooked me early, and I haven't looked back since. I love figuring out how things work, learning fast, and shipping new features. When I'm not deep in code, you'll find me on the basketball court 🏀, clearing my head and dropping dimes to my teammates. For me, life is all about growth, on and off the screen.",
   avatarUrl: "/mee.jpg",
   skills: [
     "React",
@@ -63,6 +62,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Blooming XP",
+      href: "https://bloomingxp.com/",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl:
+        "/black-bxp.png",
+      start: "Mar 2025",
+      end: "Present",
+      description:"Built and shipped websites that brought in $10,000+ revenue for clients such as jewelers, bloggers, and more. I handle everything: requirements, builds, fixes, and keeping clients happy. When things break, I fix them fast.",
+    },
+    {
       company: "Headstarter",
       href: "https://headstarter.co/",
       badges: [],
@@ -71,9 +82,9 @@ export const DATA = {
       logoUrl:
         "https://framerusercontent.com/images/3kqB6XhNoJOQYrqlCfCWsOiVc.png",
       start: "Sept 2024",
-      end: "Present",
+      end: "Mar 2025",
       description:
-        "Developed and deployed 8 full-stack applications in 3 months.",
+        "Delivered 8 full-stack, AI-integrated apps in 12 weeks. 95% on-time delivery. Worked with top engineers and PMs, took feedback, improved, shipped again.",
     },
     {
       company: "CUNY Tech Prep",
@@ -86,7 +97,7 @@ export const DATA = {
       start: "June 2023",
       end: "June 2024",
       description:
-        "Participated in a 1-year hybrid apprenticeship program, focused on developing and presenting full-stack web applications using modern frameworks. 300 hours of instruction time with a hands-on mastery of the Software Development life cycle, communication/presentation, networking, and building MVPs. - Gained hands-on experience in both front-end and back-end development, contributing to projects that showcased comprehensive technical skills.",
+        "Built 30+ dynamic frontend pages, automated payments, and ran agile sprints. Learned to move fast, break limits, and deliver.",
     },
     {
       company: "La Jeunesse",
@@ -98,26 +109,14 @@ export const DATA = {
       start: "January 2022",
       end: "March 2022",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "La Jeunesse",
-      href: "https://lajeunesse.com/",
-      badges: [],
-      location: "New York, NY",
-      title: "Software Engineering Intern",
-      logoUrl: "/jeunesse.png",
-      start: "January 2022",
-      end: "March 2022",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Secured 2,000+ users with Firebase auth, slashed support tickets, and refactored legacy code into reusable React components. Less bugs, more speed.",
     },
   ],
   education: [
     {
       school: "City University of New York - Lehman College",
-      href: "https://lehman.cityu.edu",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      href: "https://www.lehman.cuny.edu/",
+      degree: "Bachelor of Science in Computer Science",
       logoUrl:
         "https://www.lehman.cuny.edu/media/Lehman-College-Website/Site-Assets-2021/Images/LehmanLogo_BlueGreen.png",
       start: "Sep 2020",
@@ -133,130 +132,113 @@ export const DATA = {
         "https://images.squarespace-cdn.com/content/v1/52bcea0ee4b0eedea1b68c76/1592270921910-1GI7A8BVB92HB8J49LNT/cooplogo+%281%29.png?format=1500w",
       start: "Aug 2024",
       end: "Dec 2024",
+      description: "Because getting people to care is as important as building the product they'll need.",
     },
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Honestus",
+      href: "https://www.honestus.world/",
+      dates: "Apr 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Redesigned a storytelling platform website for a blogger. Created a modern, engaging interface for sharing stories through interviews, workshops, and storytelling kits using Next.js and Payload CMS.",
       technologies: [
         "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Payload CMS",
+        "TypeScript",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "React",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://www.honestus.world/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/projects/honestus.png",
+      video: "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "AnimeGen",
+      href: "https://www.animegen.io/",
+      dates: "Mar 2025",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Launched on ProductHunt, ranked 27th with 200+ AI-generated images in week one, validating user interest and demand. Implemented payments with Polar (merchant of records), automating tax compliance and enabling seamless monetization.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Stable Diffusion",
+        "TypeScript",
+        "Polar.sh",
+        "AI/ML",
+        "Payment Processing",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://www.animegen.io/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/animegen.png",
+      video: "",
+    },
+    {
+      title: "Hive Reports",
+      href: "https://hivereports.com/",
+      dates: "Oct 2024",
+      active: true,
+      description:
+        "Designed and developed a dynamic drag-and-drop editor using React DnD for creating modular report templates. Added PDF export capabilities, allowing users to generate and share reports 3x faster than traditional methods.",
+      technologies: [
+        "Next.js",
+        "React DnD",
+        "Framer",
+        "TypeScript",
+        "PDF Generation",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hivereports.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/hivereports.gif",
+      video: "",
+    },
+    {
+      title: "Genos Bank: Customer Churn Prediction",
+      href: "https://churn-render.onrender.com/",
+      dates: "Nov 2024",
+      active: true,
+      description:
+        "Built a machine learning platform to predict customer churn in the banking sector. Identifies at-risk customers and provides insights into risk factors to help banking professionals implement personalized retention strategies.",
+      technologies: [
+        "Python",
+        "Scikit-learn",
+        "Streamlit",
+        "Machine Learning",
+        "Data Science",
+        "Pandas",
+        "NumPy",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://churn-render.onrender.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/saliftankoano/churn-render",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/projects/churn.png",
+      video: "",
     },
   ],
   hackathons: [
