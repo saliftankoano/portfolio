@@ -261,7 +261,7 @@ export default function Page() {
                   Want to chat? Just shoot me a message{" "}
                   <Link
                     href={DATA.contact.social.LinkedIn.url}
-                    className="text-blue-500 hover:underline"
+                    className="text-blue-500 hover:underline animate-contact-glow hover:animate-contact-pulse transition-all duration-300"
                     aria-label={`Contact ${DATA.name} on LinkedIn`}
                   >
                     on LinkedIn

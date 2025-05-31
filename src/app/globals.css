@@ -294,6 +294,26 @@ code[data-line-numbers-max-digits="3"] > [data-line]::before {
   100% { background-position: 0% 50%; }
 }
 
+@keyframes contact-pulse {
+  0%, 100% { 
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+    transform: scale(1);
+  }
+  50% { 
+    box-shadow: 0 0 0 8px rgba(59, 130, 246, 0);
+    transform: scale(1.02);
+  }
+}
+
+@keyframes contact-glow {
+  0%, 100% { 
+    text-shadow: 0 0 5px rgba(59, 130, 246, 0.3);
+  }
+  50% { 
+    text-shadow: 0 0 15px rgba(59, 130, 246, 0.6), 0 0 25px rgba(59, 130, 246, 0.4);
+  }
+}
+
 .animate-wave {
   animation: wave 2.5s ease-in-out infinite;
 }
@@ -327,4 +347,12 @@ code[data-line-numbers-max-digits="3"] > [data-line]::before {
 .animate-gradient {
   background-size: 200% 200%;
   animation: gradient-shift 3s ease infinite;
+}
+
+.animate-contact-pulse {
+  animation: contact-pulse 2s ease-in-out infinite;
+}
+
+.animate-contact-glow {
+  animation: contact-glow 2s ease-in-out infinite;
 }
