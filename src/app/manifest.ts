@@ -12,17 +12,17 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#000000",
     icons: [
       {
-        src: "/black-bxp.png",
+        src: "/salif.png",
         sizes: "any",
         type: "image/png",
       },
       {
-        src: "/black-bxp.png",
+        src: "/salif.png",
         sizes: "192x192",
         type: "image/png",
       },
       {
-        src: "/black-bxp.png",
+        src: "/salif.png",
         sizes: "512x512",
         type: "image/png",
       },

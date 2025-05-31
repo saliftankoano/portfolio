@@ -134,9 +134,9 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <link rel="canonical" href={DATA.url} />
-        <link rel="icon" href="/black-bxp.png" type="image/png" />
-        <link rel="shortcut icon" href="/black-bxp.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/black-bxp.png" />
+        <link rel="icon" href="/salif.png" type="image/png" />
+        <link rel="shortcut icon" href="/salif.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/salif.png" />
         <meta name="theme-color" content="#000000" />
         <meta name="color-scheme" content="light dark" />
       </head>
