@@ -137,6 +137,39 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Alex - AI Voice Assistant",
+      href: "https://aven-zeta.vercel.app/",
+      dates: "Jul 2025",
+      active: true,
+      description:
+        "Built an AI voice assistant for Aven (fintech company) that handles customer inquiries about credit cards and schedules appointments. RAG architecture with Pinecone vector database and web scraping for comprehensive knowledge base.",
+      technologies: [
+        "Next.js",
+        "VAPI",
+        "Pinecone",
+        "LlamaIndex",
+        "EXA",
+        "Jina",
+        "TypeScript",
+        "RAG",
+        "Voice AI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://aven-zeta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/saliftankoano/aven",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/aven.gif",
+      video: "",
+    },
+    {
       title: "Honestus",
       href: "https://www.honestus.world/",
       dates: "Apr 2025",
