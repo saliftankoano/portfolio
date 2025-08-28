@@ -5,7 +5,7 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { SEOStructuredData } from "@/components/seo-structured-data";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
+import { SkillBadge } from "@/components/skill-badge";
 import { WavingHand } from "@/components/waving-hand";
 import { DATA } from "@/data/resume";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -130,7 +130,7 @@ export default function Page() {
         <section id="certificates" aria-labelledby="certificates-heading">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 7}>
-              <h2 id="certificates-heading" className="text-xl font-bold">Certificates</h2>
+              <h2 id="certificates-heading" className="text-xl font-bold">Certifications</h2>
             </BlurFade>
             {DATA.certificates.map((certificate, id) => (
               <BlurFade
@@ -144,7 +144,11 @@ export default function Page() {
                   altText={certificate.institution}
                   title={certificate.credentialName}
                   subtitle={certificate.institution}
-                  period={`${certificate.start} - ${certificate.end}`}
+                  period={
+                    "start" in certificate && "end" in certificate && certificate.start && certificate.end
+                      ? `${certificate.start} - ${certificate.end}`
+                      : ""
+                  }
                   description={certificate.description}
                 />
               </BlurFade>
@@ -159,7 +163,7 @@ export default function Page() {
             <div className="flex flex-wrap gap-1" role="list" aria-label="Technical skills">
               {DATA.skills.map((skill, id) => (
                 <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                  <Badge key={skill} role="listitem">{skill}</Badge>
+                  <SkillBadge label={skill} />
                 </BlurFade>
               ))}
             </div>
@@ -238,7 +242,7 @@ export default function Page() {
               );
 
               return (
-                <Tabs defaultValue="All" className="w-full">
+                <Tabs defaultValue="Business Websites" className="w-full">
                   <TabsList className="mx-auto block w-full max-w-[800px] bg-black mb-12">
                     <div className="flex flex-wrap items-center justify-center gap-2">
                       {orderedCategories.map((cat) => (
@@ -272,7 +276,7 @@ export default function Page() {
                     Hackathons
                   </div>
                   <h2 id="hackathons-heading" className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                    Thriving under pressure
+                    Thriving under pressure ⚡️
                   </h2>
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     I participated in {DATA.hackathons.length} hackathons, and won

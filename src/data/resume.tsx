@@ -74,6 +74,32 @@ export const DATA = {
       description:"Built and shipped websites that brought in $10,000+ revenue for clients such as jewelers, bloggers, and more. I handle everything: requirements, builds, fixes, and keeping clients happy. When things break, I fix them fast.",
     },
     {
+      company: "ScholarSTEM",
+      href: "https://scholarstem.com",
+      badges: [],
+      location: "New York, NY",
+      title: "Tech Instructor",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/D4D0BAQEiUgKhkofIAw/company-logo_200_200/company-logo_200_200/0/1683756196108/scholarstem_logo?e=1759363200&v=beta&t=CsPg3uAjtpJVxtTUFZOOHCil18xZHaBMAGOc2E8-De0",
+      start: "Jul 2023",
+      end: "Mar 2025",
+      description:
+        "Taught web development fundamentals and mentored students through hands-on projects, improving outcomes and technical confidence.",
+    },
+    {
+      company: "Lehman College",
+      href: "https://www.lehman.cuny.edu/",
+      badges: [],
+      location: "New York, NY",
+      title: "Application Support",
+      logoUrl:
+        "https://www.lehman.cuny.edu/media/Lehman-College-Website/Site-Assets-2021/Images/LehmanLogo_BlueGreen.png",
+      start: "Mar 2022",
+      end: "Jul 2023",
+      description:
+        "Resolved student and faculty technical issues across campus systems; documented fixes and improved response times.",
+    },
+    {
       company: "Headstarter",
       href: "https://headstarter.co/",
       badges: [],
@@ -81,8 +107,8 @@ export const DATA = {
       title: "Software Engineering Resident",
       logoUrl:
         "https://framerusercontent.com/images/3kqB6XhNoJOQYrqlCfCWsOiVc.png",
-      start: "Sept 2024",
-      end: "Mar 2025",
+      start: "July 2024",
+      end: "July 2025",
       description:
         "Delivered 8 full-stack, AI-integrated apps in 12 weeks. 95% on-time delivery. Worked with top engineers and PMs, took feedback, improved, shipped again.",
     },
@@ -119,20 +145,28 @@ export const DATA = {
       degree: "Bachelor of Science in Computer Science",
       logoUrl:
         "https://www.lehman.cuny.edu/media/Lehman-College-Website/Site-Assets-2021/Images/LehmanLogo_BlueGreen.png",
-      start: "Sep 2020",
-      end: "May 2024",
+      start: "",
+      end: "",
     },
   ],
   certificates: [
     {
       institution: "COOP Careers",
       href: "https://coopcareers.com",
-      credentialName: "Digital Marketing Certificate",
+      credentialName: "Digital Marketing",
       logoUrl:
         "https://images.squarespace-cdn.com/content/v1/52bcea0ee4b0eedea1b68c76/1592270921910-1GI7A8BVB92HB8J49LNT/cooplogo+%281%29.png?format=1500w",
-      start: "Aug 2024",
-      end: "Dec 2024",
+      start: "",
+      end: "",
       description: "Because getting people to care is as important as building the product they'll need.",
+    },
+    {
+      institution: "CompTIA",
+      href: "https://www.comptia.org/certifications/a",
+      credentialName: "CompTIA A+",
+      logoUrl:
+        "https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/0_9u07jaz8/def_height/2700/def_width/2700/version/100012/type/1",
+      description: "Validated foundational IT troubleshooting, networking, and security skills.",
     },
   ],
   projects: [
