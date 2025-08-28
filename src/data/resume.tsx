@@ -207,7 +207,7 @@ export const DATA = {
     {
       title: "Honestus",
       href: "https://www.honestus.world/",
-      dates: "Apr 2025",
+      dates: "April 2025",
       active: true,
       category: "Business Websites",
       description:
@@ -282,7 +282,7 @@ export const DATA = {
     {
       title: "Genos Bank: Customer Churn",
       href: "https://churn-render.onrender.com/",
-      dates: "Nov 2024",
+      dates: "November 2024",
       active: true,
       category: "Data & AI",
       description:
@@ -312,7 +312,7 @@ export const DATA = {
     {
       title: "Agora's Little Gems",
       href: "https://daycare-nine.vercel.app/",
-      dates: "2025",
+      dates: "May 2025",
       active: true,
       category: "Business Websites",
       description:
@@ -335,7 +335,7 @@ export const DATA = {
     {
       title: "Davoli & Associates",
       href: "https://law-wine-two.vercel.app/",
-      dates: "2025",
+      dates: "April 2025",
       active: true,
       category: "Business Websites",
       description:
@@ -358,7 +358,7 @@ export const DATA = {
     {
       title: "ESG for Good",
       href: "https://www.esgforgood.com/",
-      dates: "2025",
+      dates: "February 2025",
       active: true,
       category: "Data & AI",
       description:
@@ -381,7 +381,7 @@ export const DATA = {
     {
       title: "Aplus Prep",
       href: "https://aplus-prep.com/",
-      dates: "2025",
+      dates: "August 2025",
       active: true,
       category: "Product & Startups",
       description:
@@ -404,7 +404,7 @@ export const DATA = {
     {
       title: "Kazedra",
       href: "https://www.kazedra.com/",
-      dates: "2024 - 2025",
+      dates: "September 2024",
       active: true,
       category: "Product & Startups",
       description:
@@ -427,7 +427,7 @@ export const DATA = {
     {
       title: "Golden Bond Events",
       href: "https://goldenbond.vercel.app/",
-      dates: "2025",
+      dates: "June 2025",
       active: true,
       category: "Business Websites",
       description:
@@ -450,7 +450,7 @@ export const DATA = {
     {
       title: "Golden Bond Shopify",
       href: "https://goldenbondjewelry.com/",
-      dates: "2024 - 2025",
+      dates: "August 2025",
       active: true,
       category: "Business Websites",
       description:
@@ -472,7 +472,7 @@ export const DATA = {
     {
       title: "Glen Studio (Photography Studio)",
       href: "https://glen-studio.com/",
-      dates: "2025",
+      dates: "January 2025",
       active: true,
       category: "Business Websites",
       description:
@@ -495,7 +495,7 @@ export const DATA = {
     {
       title: "Promotional Email — Crunchyroll",
       href: "https://saliftankoano.github.io/crunchyroll/",
-      dates: "2024",
+      dates: "December 2024",
       active: true,
       category: "Email & Marketing",
       description:
@@ -518,7 +518,7 @@ export const DATA = {
     {
       title: "Order Confirmation Email — Canva",
       href: "https://saliftankoano.github.io/canva-order/",
-      dates: "2024",
+      dates: "September 2024",
       active: true,
       category: "Email & Marketing",
       description:
@@ -541,7 +541,7 @@ export const DATA = {
     {
       title: "Newsletter — Alice",
       href: "https://saliftankoano.github.io/alice/",
-      dates: "2024",
+      dates: "October 2024",
       active: true,
       category: "Email & Marketing",
       description:
