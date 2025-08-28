@@ -104,7 +104,7 @@ export const DATA = {
       href: "https://lajeunesse.com/",
       badges: [],
       location: "New York, NY",
-      title: "Software Engineering Intern",
+      title: "Web Developer Intern",
       logoUrl: "/jeunesse.png",
       start: "January 2022",
       end: "March 2022",
@@ -141,6 +141,7 @@ export const DATA = {
       href: "https://aven-zeta.vercel.app/",
       dates: "Jul 2025",
       active: true,
+      category: "Data & AI",
       description:
         "Built an AI voice assistant for Aven (fintech company) that handles customer inquiries about credit cards and schedules appointments. RAG architecture with Pinecone vector database and web scraping for comprehensive knowledge base.",
       technologies: [
@@ -174,6 +175,7 @@ export const DATA = {
       href: "https://www.honestus.world/",
       dates: "Apr 2025",
       active: true,
+      category: "Business Websites",
       description:
         "Redesigned a storytelling platform website for a blogger. Created a modern, engaging interface for sharing stories through interviews, workshops, and storytelling kits using Next.js and Payload CMS.",
       technologies: [
@@ -181,7 +183,6 @@ export const DATA = {
         "Payload CMS",
         "TypeScript",
         "TailwindCSS",
-        "React",
       ],
       links: [
         {
@@ -198,6 +199,7 @@ export const DATA = {
       href: "https://www.animegen.io/",
       dates: "Mar 2025",
       active: true,
+      category: "Product & Startups",
       description:
         "Launched on ProductHunt, ranked 27th with 200+ AI-generated images in week one, validating user interest and demand. Implemented payments with Polar (merchant of records), automating tax compliance and enabling seamless monetization.",
       technologies: [
@@ -222,6 +224,7 @@ export const DATA = {
       href: "https://hivereports.com/",
       dates: "Oct 2024",
       active: true,
+      category: "Product & Startups",
       description:
         "Designed and developed a dynamic drag-and-drop editor using React DnD for creating modular report templates. Added PDF export capabilities, allowing users to generate and share reports 3x faster than traditional methods.",
       technologies: [
@@ -243,10 +246,11 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Genos Bank: Customer Churn Prediction",
+      title: "Genos Bank: Customer Churn",
       href: "https://churn-render.onrender.com/",
       dates: "Nov 2024",
       active: true,
+      category: "Data & AI",
       description:
         "Built a machine learning platform to predict customer churn in the banking sector. Identifies at-risk customers and provides insights into risk factors to help banking professionals implement personalized retention strategies.",
       technologies: [
@@ -254,9 +258,7 @@ export const DATA = {
         "Scikit-learn",
         "Streamlit",
         "Machine Learning",
-        "Data Science",
-        "Pandas",
-        "NumPy",
+       
       ],
       links: [
         {
@@ -271,6 +273,258 @@ export const DATA = {
         },
       ],
       image: "/projects/churn.png",
+      video: "",
+    },
+    {
+      title: "Agora's Little Gems",
+      href: "https://daycare-nine.vercel.app/",
+      dates: "2025",
+      active: true,
+      category: "Business Websites",
+      description:
+        "Bilingual daycare website with programs, FAQs, and lead capture to improve parent conversions.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://daycare-nine.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/childcare.gif",
+      video: "",
+    },
+    {
+      title: "Davoli & Associates",
+      href: "https://law-wine-two.vercel.app/",
+      dates: "2025",
+      active: true,
+      category: "Business Websites",
+      description:
+        "Personal injury law firm site highlighting practice areas, testimonials, and contact to drive consultations.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://law-wine-two.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/law.gif",
+      video: "",
+    },
+    {
+      title: "ESG for Good",
+      href: "https://www.esgforgood.com/",
+      dates: "2025",
+      active: true,
+      category: "Data & AI",
+      description:
+        "Informational platform surfacing NY renewable energy context for founders and investors.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.esgforgood.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/esg-for-good.gif",
+      video: "",
+    },
+    {
+      title: "Aplus Prep",
+      href: "https://aplus-prep.com/",
+      dates: "2025",
+      active: true,
+      category: "Product & Startups",
+      description:
+        "Exam prep product page funnel to collect interest and early users.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://aplus-prep.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/aplus-prep.gif",
+      video: "",
+    },
+    {
+      title: "Kazedra",
+      href: "https://www.kazedra.com/",
+      dates: "2024 - 2025",
+      active: true,
+      category: "Product & Startups",
+      description:
+        "Waitlist landing page for an outfit planning app with early pricing tiers and testimonials.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.kazedra.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/kazedra.gif",
+      video: "",
+    },
+    {
+      title: "Golden Bond Events",
+      href: "https://goldenbond.vercel.app/",
+      dates: "2025",
+      active: true,
+      category: "Business Websites",
+      description:
+        "Event services site showcasing packages, galleries, and contact flow to capture leads.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://goldenbond.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/golden-bond-events.gif",
+      video: "",
+    },
+    {
+      title: "Golden Bond Shopify",
+      href: "https://goldenbondjewelry.com/",
+      dates: "2024 - 2025",
+      active: true,
+      category: "Business Websites",
+      description:
+        "Shopify storefront setup and theme customization for jewelry e-commerce.",
+      technologies: [
+        "Shopify",
+        "Liquid",
+        "JavaScript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://goldenbondjewelry.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/gb-shopify.gif",
+    },
+    {
+      title: "Glen Studio (Photography Studio)",
+      href: "https://glen-studio.com/",
+      dates: "2025",
+      active: true,
+      category: "Business Websites",
+      description:
+        "WordPress site for a photography studio with bookings and portfolio galleries.",
+      technologies: [
+        "WordPress",
+        "PHP",
+        "SEO",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://glen-studio.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/glen-studio.gif",
+      video: "",
+    },
+    {
+      title: "Promotional Email — Crunchyroll",
+      href: "https://saliftankoano.github.io/crunchyroll/",
+      dates: "2024",
+      active: true,
+      category: "Email & Marketing",
+      description:
+        "Responsive promotional email built with semantic HTML and inline styles for deliverability.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Email",
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://saliftankoano.github.io/crunchyroll/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/crunchyroll-email.png",
+      video: "",
+    },
+    {
+      title: "Order Confirmation Email — Canva",
+      href: "https://saliftankoano.github.io/canva-order/",
+      dates: "2024",
+      active: true,
+      category: "Email & Marketing",
+      description:
+        "Transactional email template optimized for clarity, accessibility, and mobile viewing.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Email",
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://saliftankoano.github.io/canva-order/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/canva-email.png",
+      video: "",
+    },
+    {
+      title: "Newsletter — Alice",
+      href: "https://saliftankoano.github.io/alice/",
+      dates: "2024",
+      active: true,
+      category: "Email & Marketing",
+      description:
+        "Newsletter layout focusing on hierarchy, typographic rhythm, and link tap targets.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Email",
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://saliftankoano.github.io/alice/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/alice-email.png",
       video: "",
     },
   ],

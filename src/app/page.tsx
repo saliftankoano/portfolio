@@ -8,6 +8,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { WavingHand } from "@/components/waving-hand";
 import { DATA } from "@/data/resume";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Metadata } from "next";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -181,28 +182,85 @@ export default function Page() {
                 </div>
               </div>
             </BlurFade>
-            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto" role="list" aria-label="Portfolio projects">
-              {DATA.projects.map((project, id) => (
-                <BlurFade
-                  key={project.title}
-                  delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+
+            {(() => {
+              const desiredOrder = [
+                "All",
+                "Business Websites",
+                "Product & Startups",
+                "Data & AI",
+                "Email & Marketing",
+              ];
+              const categories = Array.from(
+                new Set(DATA.projects.map((p) => p.category))
+              ) as string[];
+              const orderedCategories = desiredOrder.filter((c) =>
+                c === "All" ? true : categories.includes(c)
+              );
+              const referenceProject = DATA.projects.find(
+                (p) => p.title === "Golden Bond Events"
+              );
+              const STANDARD_DESC_LEN = referenceProject
+                ? referenceProject.description.length
+                : 160;
+              const truncate = (text: string, max = STANDARD_DESC_LEN) =>
+                text && text.length > max ? text.slice(0, max - 1) + "…" : text;
+
+              const renderGrid = (
+                items: readonly (typeof DATA.projects)[number][]
+              ) => (
+                <div
+                  className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto"
+                  role="list"
+                  aria-label="Portfolio projects"
                 >
-                  <article role="listitem">
-                    <ProjectCard
-                      href={project.href}
+                  {items.map((project, id) => (
+                    <BlurFade
                       key={project.title}
-                      title={project.title}
-                      description={project.description}
-                      dates={project.dates}
-                      tags={project.technologies}
-                      image={project.image}
-                      video={project.video}
-                      links={project.links}
-                    />
-                  </article>
-                </BlurFade>
-              ))}
-            </div>
+                      delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                    >
+                      <article role="listitem">
+                        <ProjectCard
+                          href={project.href}
+                          key={project.title}
+                          title={project.title}
+                          description={truncate(project.description)}
+                          dates={project.dates}
+                          tags={project.technologies}
+                          image={"image" in project ? (project as any).image : undefined}
+                          video={"video" in project ? (project as any).video : undefined}
+                          links={project.links}
+                        />
+                      </article>
+                    </BlurFade>
+                  ))}
+                </div>
+              );
+
+              return (
+                <Tabs defaultValue="All" className="w-full">
+                  <TabsList className="mx-auto block w-full max-w-[800px] bg-black mb-12">
+                    <div className="flex flex-wrap items-center justify-center gap-2">
+                      {orderedCategories.map((cat) => (
+                        <TabsTrigger key={cat} value={cat as any}>
+                          {cat}
+                        </TabsTrigger>
+                      ))}
+                    </div>
+                  </TabsList>
+                  <TabsContent value="All" className="animate-in fade-in-50 duration-200">
+                    {renderGrid(DATA.projects)}
+                  </TabsContent>
+                  {categories.map((cat) => (
+                    <TabsContent key={cat} value={cat as any} className="animate-in fade-in-50 duration-200">
+                      {renderGrid(
+                        DATA.projects.filter((p) => p.category === cat)
+                      )}
+                    </TabsContent>
+                  ))}
+                </Tabs>
+              );
+            })()}
           </div>
         </section>
         <section id="hackathons" aria-labelledby="hackathons-heading">
