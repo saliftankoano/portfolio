@@ -62,29 +62,16 @@ export const DATA = {
 
   work: [
     {
-      company: "Blooming XP",
-      href: "https://bloomingxp.com/",
+      company: "Floreo Labs",
+      href: "https://floreolabs.com/",
       badges: [],
       location: "Remote",
       title: "Software Engineer",
-      logoUrl:
-        "/black-bxp.png",
-      start: "Mar 2025",
+      logoUrl: "/floreo-labs.png",
+      start: "May 2025",
       end: "Present",
-      description:"Built and shipped websites that brought in $10,000+ revenue for clients such as jewelers, bloggers, and more. I handle everything: requirements, builds, fixes, and keeping clients happy. When things break, I fix them fast.",
-    },
-    {
-      company: "ScholarSTEM",
-      href: "https://scholarstem.com",
-      badges: [],
-      location: "New York, NY",
-      title: "Tech Instructor",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/D4D0BAQEiUgKhkofIAw/company-logo_200_200/company-logo_200_200/0/1683756196108/scholarstem_logo?e=1759363200&v=beta&t=CsPg3uAjtpJVxtTUFZOOHCil18xZHaBMAGOc2E8-De0",
-      start: "Jul 2023",
-      end: "Mar 2025",
       description:
-        "Taught web development fundamentals and mentored students through hands-on projects, improving outcomes and technical confidence.",
+        "Architected an AI-powered developer onboarding platform with Node.js, TypeScript, and Python. Built backend workflows using AST parsers, embeddings, and metadata retrieval reaching 85% accuracy. Integrated Payload CMS with Turso-backed SQLite adapters and Supabase storage across client-facing platforms.",
     },
     {
       company: "Lehman College",
@@ -107,8 +94,8 @@ export const DATA = {
       title: "Software Engineering Resident",
       logoUrl:
         "https://framerusercontent.com/images/3kqB6XhNoJOQYrqlCfCWsOiVc.png",
-      start: "July 2024",
-      end: "July 2025",
+      start: "Jul 2024",
+      end: "Jul 2025",
       description:
         "Delivered 8 full-stack, AI-integrated apps in 12 weeks. 95% on-time delivery. Worked with top engineers and PMs, took feedback, improved, shipped again.",
     },
