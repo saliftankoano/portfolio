@@ -74,19 +74,6 @@ export const DATA = {
         "Architected an AI-powered developer onboarding platform with Node.js, TypeScript, and Python. Built backend workflows using AST parsers, embeddings, and metadata retrieval reaching 85% accuracy. Integrated Payload CMS with Turso-backed SQLite adapters and Supabase storage across client-facing platforms.",
     },
     {
-      company: "Lehman College",
-      href: "https://www.lehman.cuny.edu/",
-      badges: [],
-      location: "New York, NY",
-      title: "Application Support",
-      logoUrl:
-        "https://www.lehman.cuny.edu/media/Lehman-College-Website/Site-Assets-2021/Images/LehmanLogo_BlueGreen.png",
-      start: "Mar 2022",
-      end: "Jul 2023",
-      description:
-        "Resolved student and faculty technical issues across campus systems; documented fixes and improved response times.",
-    },
-    {
       company: "Headstarter",
       href: "https://headstarter.co/",
       badges: [],
@@ -107,10 +94,23 @@ export const DATA = {
       title: "Software Engineering Fellow",
       logoUrl:
         "https://cunytechprep.org/_next/static/media/ctp-logo-square.6a1210b7.png",
-      start: "June 2023",
-      end: "June 2024",
+      start: "Jun 2023",
+      end: "Jun 2024",
       description:
         "Built 30+ dynamic frontend pages, automated payments, and ran agile sprints. Learned to move fast, break limits, and deliver.",
+    },
+    {
+      company: "Lehman College",
+      href: "https://www.lehman.cuny.edu/",
+      badges: [],
+      location: "New York, NY",
+      title: "Application Support",
+      logoUrl:
+        "https://www.lehman.cuny.edu/media/Lehman-College-Website/Site-Assets-2021/Images/LehmanLogo_BlueGreen.png",
+      start: "Mar 2022",
+      end: "Jul 2023",
+      description:
+        "Resolved student and faculty technical issues across campus systems; documented fixes and improved response times.",
     },
     {
       company: "La Jeunesse",
